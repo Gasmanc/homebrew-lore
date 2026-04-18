@@ -8,18 +8,18 @@
 class Lore < Formula
   desc "Local documentation server for AI coding assistants"
   homepage "https://github.com/Gasmanc/lore"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Gasmanc/lore/releases/download/v0.1.0/lore-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ba96b02abb7eaf08dd6a6762dc579e5439fde9daba19f66ac3cb72aa87093917"
+      url "https://github.com/Gasmanc/lore/releases/download/v0.2.0/lore-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b87b116ca133e2aff0d24eca188652b58d858ab771f6b67a461f2eefbbb30ed3"
     end
 
     on_intel do
-      url "https://github.com/Gasmanc/lore/releases/download/v0.1.0/lore-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "efa5b100b6a2d65d710723622717cd7c7b2a4a45e6a27dbbdbf6e9ab11bc2b67"
+      url "https://github.com/Gasmanc/lore/releases/download/v0.2.0/lore-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d329ec43c557f4ea8a6186a60c8811ed6066641720517583560110660d1bb9f3"
     end
   end
 
@@ -31,8 +31,8 @@ class Lore < Formula
     end
 
     on_intel do
-      url "https://github.com/Gasmanc/lore/releases/download/v0.1.0/lore-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f58db7f1cc5581a74ae741c5acd852378e21b7db62c67c1329d6b0719886bafe"
+      url "https://github.com/Gasmanc/lore/releases/download/v0.2.0/lore-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "dc4e3e574433c56ab416c1aab50d41ccadcb224f4855d3d59d1536747a673f23"
     end
   end
 
