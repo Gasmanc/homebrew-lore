@@ -8,31 +8,29 @@
 class Lore < Formula
   desc "Local documentation server for AI coding assistants"
   homepage "https://github.com/Gasmanc/lore"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Gasmanc/lore/releases/download/v0.2.0/lore-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b87b116ca133e2aff0d24eca188652b58d858ab771f6b67a461f2eefbbb30ed3"
+      url "https://github.com/Gasmanc/lore/releases/download/v0.2.1/lore-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "393fb2b294e386a78027f50c0ef7473a8279497e7b2351619b224f8b1d46fb93"
     end
 
     on_intel do
-      url "https://github.com/Gasmanc/lore/releases/download/v0.2.0/lore-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d329ec43c557f4ea8a6186a60c8811ed6066641720517583560110660d1bb9f3"
+      url "https://github.com/Gasmanc/lore/releases/download/v0.2.1/lore-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "5d016cf307bc38c234b31029d99cf3a5b01952816f7ac946bc7eaa25ead8a21e"
     end
   end
 
   on_linux do
     on_arm do
-      # aarch64-linux binary is not yet available; install via cargo instead:
-      #   cargo install lore-cli
       odie "Pre-built aarch64 Linux binary not available yet. Install with: cargo install lore-cli"
     end
 
     on_intel do
-      url "https://github.com/Gasmanc/lore/releases/download/v0.2.0/lore-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dc4e3e574433c56ab416c1aab50d41ccadcb224f4855d3d59d1536747a673f23"
+      url "https://github.com/Gasmanc/lore/releases/download/v0.2.1/lore-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c4536a35b1691061e4e10127e7a75fafa755e485bedfcecfa40875ae51c30e24"
     end
   end
 
