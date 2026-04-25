@@ -25,6 +25,8 @@ class Lore < Formula
 
   on_linux do
     on_arm do
+      # aarch64-linux binary is not yet available; install via cargo instead:
+      #   cargo install lore-cli
       odie "Pre-built aarch64 Linux binary not available yet. Install with: cargo install lore-cli"
     end
 
